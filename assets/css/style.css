@@ -173,7 +173,10 @@ header nav ul li a:hover {
   margin: 20px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-right: solid gray;
+  
 }
+
+
 
 .work-right-top-cpntainer {
   width: 100%;
@@ -190,11 +193,11 @@ header nav ul li a:hover {
   color: white;
 }
 
+
 .box-left {
   position: absolute;
   bottom: 50px;
   left: 0px;
-  
   padding: 3vw 0vw;
   background-color: rgba(255,0,0,0.7);
   
@@ -205,6 +208,7 @@ header nav ul li a:hover {
   padding: 0vw 5vw;
   font-size: 45px;
   margin: 5px 0px;
+  
   
 }
 
@@ -217,10 +221,9 @@ header nav ul li a:hover {
   position: absolute;
   top: 65%;
   left: 0px;
-  
-  
   background-color: rgba(255,0,0,0.7);
-  
+  position: absolute;  
+  display: flexbox;
 }
 
 .box-center h3{
@@ -265,8 +268,7 @@ header nav ul li a:hover {
 
 .flex-item-bottom img {
   width: 100%;
-  min-width: 20vw;
-  max-height: 20vw;
+  height: 100%;
 }
 
 /*----------------------------footer------------------------*/
@@ -335,99 +337,5 @@ footer nav ul li a:hover {
   color: #024e76;
   border-radius: 15px;
   text-shadow: none;
-}
-
-@media screen and (max-width: 980px) {
-  header {
-    padding-bottom: 0;
-    justify-content: center;
-    
-  }
-
-  header h1 {
-    width: 100%;
-    text-align: center;
-  }
-
-  header nav ul {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-  }
-
-  header nav ul li a {
-    font-size: 20px;
-  }
-
-  footer h2, footer div {
-    text-align: center;
-    width: 100%;
-  }
-
-  .work-right-top-cpntainer {
-    width: 100%;
-    
-  }
-
-  .work-right-bottom-cpntainer {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  
-  .work-right-top-cpntainer {
-    text-align: center;
-  }
-
-  .section-title {
-    width: 80%;
-  }
-  
-  .work {
-    flex: 0 70%;
-  }
-  
-  .contact-info iframe{
-    flex: 1 100%;
-  }
-
-}
-
-
-
-@media screen and (max-width: 768px) {
-
-  section {
-    padding: 30px 15px;
-  }
-
-  .work h3 {
-    flex: 1 100%;
-    text-align: center;
-  }
-  .work {
-    display: flex;
-  }
-
-  .work-right-top-cpntainer, .work-right-bottom-cpntainer {
-    flex: 2 100%;
-    text-align: center;
-    justify-content: space-between;
-    /* flex-direction: row; */
-    
-    
-  }
-
-  .flex-item-bottom img {
-    flex: 0 32%;
-    margin-right: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    
-  }
-
-  .step-text {
-    flex: 100%;  
-  }
-
 }
 
